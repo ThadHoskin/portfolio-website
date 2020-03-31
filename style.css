@@ -24,7 +24,8 @@
   font-size: 20px;
   /* height:100px; */
   width:100vw;
-  padding:50px;
+  /* padding:50px; */
+  padding: 20px 0px;
   letter-spacing: 5px;
   text-align:center;
 }
@@ -39,11 +40,13 @@
 
 .navbar ul{
   list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
 }
-
 .navbar a {
   text-decoration: none;
-  margin-left: 55px;
   color:gray;
   font-size: 15px;
   letter-spacing: 4px;
@@ -180,7 +183,8 @@ input[type=text] {
   font-size: 20px;
   /* height:100px; */
   width:100vw;
-  padding:50px;
+  /* padding:50px; */
+  padding: 20px 0px;
   letter-spacing: 5px;
 }
 
@@ -234,7 +238,8 @@ section-1 h3, section-2 h3 {
   font-size: 20px;
   /* height:100px; */
   width:100vw;
-  padding:50px;
+  padding: 20px 0px;
+  /* padding:50px; */
   letter-spacing: 5px;
 }
 
