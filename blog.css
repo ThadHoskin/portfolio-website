@@ -38,10 +38,10 @@
   width: 100px;
 }
 
-a:hover {
+/* a:hover {
   color:black;
   font-weight: bold;
-}
+} */
 
 header a  {
   color:black;
@@ -99,6 +99,11 @@ section-1 h3, section-2 h3 {
   font-weight: 400;
   color:#6599FF;
   font-size: 15px;
+}
+
+p a:hover {
+  color:#6599FF;
+  font-weight: bold;
 }
 
 /* footer styling */
