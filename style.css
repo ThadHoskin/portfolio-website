@@ -9,7 +9,7 @@
 /* need to find a better quality picture!!!!! */
 .container1 {
   height:100vh;
-  width:100vw;
+  max-width:100vw;
 }
 
 /* header styling */
@@ -20,9 +20,6 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  /* height:100px; */
-  /* width:100vw; */
-  /* padding:50px; */
   padding: 30px 0px;
   letter-spacing: 5px;
   text-align:center;
@@ -63,8 +60,8 @@ header a  {
 /* contact page styling */
 
 .container3 {
-  height:calc(100vh - 160px);
-  width:100vw;
+  height:100vh;
+  max-width:100vw;
   /* border:1px solid black; */
   display:flex; 
   flex-direction: row;
@@ -260,7 +257,7 @@ h3 a:hover {
  
  
  .footer-container {
-  width:100vw;
+  max-width:100vw;
   height:160px;
   background-color:#d3d3d3;
   margin: 0px 0px 0px 0px;
