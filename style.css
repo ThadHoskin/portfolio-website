@@ -3,10 +3,6 @@
 
 * {
   margin: 0px 0px 0px 0px;
-  /* background-image: url("./image.jpeg"); */
-  /* background-repeat: no-repeat; */
-  /* background-position: center;      */
-  /* background-size: cover; */
   font-family: 'Montserrat', Arial, sans-serif;
   }
 
@@ -25,7 +21,7 @@
   align-items: center;
   font-size: 14px;
   /* height:100px; */
-  width:100vw;
+  /* width:100vw; */
   /* padding:50px; */
   padding: 30px 0px;
   letter-spacing: 5px;
@@ -36,8 +32,6 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  /* height:100px; */
-  /* width:100vw; */
 }
 
 .navbar ul{

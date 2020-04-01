@@ -2,14 +2,10 @@
 
 * {
   margin: 0px 0px 0px 0px;
-  /* background-image: url("./image.jpeg"); */
-  /* background-repeat: no-repeat; */
-  /* background-position: center;      */
-  /* background-size: cover; */
   font-family: 'Montserrat', Arial, sans-serif;
   }
 
-/* need to find a better quality picture!!!!! */
+
 .container1 {
   height:100vh;
   width:100vw;
@@ -24,9 +20,7 @@
   justify-content: center;
   align-items: center;
   font-size: 14px;
-  /* height:100px; */
   width:100vw;
-  /* padding:50px; */
   padding: 30px 0px;
   letter-spacing: 5px;
   text-align:center;
@@ -36,8 +30,6 @@
   display:flex;
   justify-content: center;
   align-items: center;
-  /* height:100px; */
-  /* width:100vw; */
 }
 
 .navbar ul{
@@ -91,4 +83,9 @@ header a  {
 .blog-one-content p {
   line-height: 1.8em;
   text-align: left;
+}
+
+#date {
+  margin-bottom: 20px;
+  font-size:12px;
 }
