@@ -106,19 +106,6 @@ header a  {
   width:100%;
 }
 
-.emoticon-pic {
-  height:450px;
-  width:150px;
-  align-self: center;
-  /* border:1px solid black; */
-  /* margin-left: 100px; */
-  /* margin-top: 50px; */
-  /* margin-top:150px; */
-  background-image: url(./bitmoji.jpeg);
-  background-position: center;
-  background-size:cover;
-  background-color:#e7feff;
-}
 
 /* form styling */
 
@@ -148,12 +135,12 @@ form input {
 }
 
 textarea {
-  padding-bottom:20px;
   margin-bottom:20px;
   width:80%;
   height:150px;
   font-size:20px;
   padding:15px;
+  border: 1px solid gray;
 }
 
 label input {
@@ -163,7 +150,7 @@ label input {
 
 input[type=submit] {
   padding:10px;
-  width:87.5%;
+  width:80%;
   border: 1px solid gray;
   color:gray;
 } 
@@ -305,27 +292,24 @@ h3 a:hover {
 .badge1 {
   height:50px;
   width:50px;
-  /* border: 1px solid; */
   align-self: center;
   background-image: url(./github.jpeg);
   background-size: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .badge2 {
   height:50px;
   width:50px;
-  border: 1px solid;
   align-self: center;
   background-image: url(./twitter.jpeg);
   background-size: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .badge3 {
   height:50px;
   width:50px;
-  border: 1px solid;
   align-self: center;
   background-image: url(./linkedin.jpeg);
   background-size: cover;
@@ -335,7 +319,6 @@ h3 a:hover {
 .badge4 {
   height:50px;
   width:50px;
-  /* border: 1px solid; */
   align-self: center;
   background-image: url(./instagram.jpeg);
   background-size: cover;
@@ -345,7 +328,7 @@ h3 a:hover {
 .badge5 {
   height:50px;
   width:50px;
-  border: 1px solid;
+  border-radius: 8px;
   align-self: center;
   background-image: url(./facebook.jpeg);
   background-size: cover;

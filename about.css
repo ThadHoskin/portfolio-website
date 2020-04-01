@@ -1,3 +1,20 @@
+@import url(https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat);
+
+
+* {
+  margin: 0px 0px 0px 0px;
+  /* background-image: url("./image.jpeg"); */
+  /* background-repeat: no-repeat; */
+  /* background-position: center;      */
+  /* background-size: cover; */
+  font-family: 'Montserrat', Arial, sans-serif;
+  }
+
+/* need to find a better quality picture!!!!! */
+.container1 {
+  height:100vh;
+  width:100vw;
+}
 
 /* header styling */
 
@@ -48,6 +65,104 @@ header a  {
   color:black;
   text-decoration: none;
 }
+
+/* contact page styling */
+
+.container3 {
+  height:calc(100vh - 160px);
+  width:100vw;
+  /* border:1px solid black; */
+  display:flex; 
+  flex-direction: row;
+  justify-content: center;
+  background-color:#e7feff;
+}
+
+.coffee {
+  width:50%;
+  display:flex;
+  justify-content: center;
+}
+
+.coffee-child {
+  height:80%;
+  width:80%;
+  padding-top: 100px;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.coffee-child h1 {
+  color:black;
+  /* text-align: center; */
+  letter-spacing: 5px;
+  width:100%;
+}
+
+ .coffee-child p {
+  line-height: 1.8em;
+  font-size: 15px;
+  width:100%;
+}
+
+
+/* form styling */
+
+.form {
+  width:50%;
+  display:flex;
+  justify-content: center;
+  margin-top: 100px;
+} 
+
+.form-child {
+  height:50%;
+  width:80%;
+}
+
+
+form label {
+  padding-bottom:20px;
+  margin-bottom:20px;
+  letter-spacing: 4px;
+}
+
+form input {
+  width:80%;
+  padding-bottom:20px;
+  margin-bottom:20px;
+}
+
+textarea {
+  margin-bottom:20px;
+  width:80%;
+  height:150px;
+  font-size:20px;
+  padding:15px;
+  border: 1px solid gray;
+}
+
+label input {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+input[type=submit] {
+  padding:10px;
+  width:80%;
+  border: 1px solid gray;
+  color:gray;
+} 
+
+input, #name  {
+  font-size: 20px;
+  padding:15px;
+}
+
+
+
+
 /* about page styling */
 
 .container2 {
@@ -102,6 +217,51 @@ section-1 h3, section-2 h3 {
   font-size: 15px;
 }
 
+
+/* blog page */
+
+.container4 {
+  height:100vh;
+  width:100vw;
+}
+
+.blog {
+  display:flex;
+  justify-content: center;
+  font-size: 20px;
+  /* height:100px; */
+  width:100vw;
+  padding: 20px 0px;
+  /* padding:50px; */
+  letter-spacing: 5px;
+}
+
+.blog-main-content {
+  margin:70px 150px 0 150px;
+  border-bottom:2px solid #6599FF;
+  font-size: 15px;
+  line-height: 1.8em;
+}
+
+.blog-main-content #blog-title {
+  color:#6599FF;
+}
+
+h3 a {
+  text-decoration: none;
+  color:black;
+}
+
+h3 a:hover {
+  color:#6599FF;
+  font-weight: bold;
+}
+
+#last-blog-spacing {
+  margin-bottom: 50px;
+}
+
+
 /* footer styling */
  
  
@@ -132,27 +292,24 @@ section-1 h3, section-2 h3 {
 .badge1 {
   height:50px;
   width:50px;
-  /* border: 1px solid; */
   align-self: center;
   background-image: url(./github.jpeg);
   background-size: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .badge2 {
   height:50px;
   width:50px;
-  border: 1px solid;
   align-self: center;
   background-image: url(./twitter.jpeg);
   background-size: cover;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .badge3 {
   height:50px;
   width:50px;
-  border: 1px solid;
   align-self: center;
   background-image: url(./linkedin.jpeg);
   background-size: cover;
@@ -162,7 +319,6 @@ section-1 h3, section-2 h3 {
 .badge4 {
   height:50px;
   width:50px;
-  /* border: 1px solid; */
   align-self: center;
   background-image: url(./instagram.jpeg);
   background-size: cover;
@@ -172,8 +328,9 @@ section-1 h3, section-2 h3 {
 .badge5 {
   height:50px;
   width:50px;
-  border: 1px solid;
+  border-radius: 8px;
   align-self: center;
   background-image: url(./facebook.jpeg);
   background-size: cover;
 }
+
