@@ -86,12 +86,12 @@ header a  {
 
 h3 a {
   text-decoration: none;
-  color:black;
+  color:#6599FF;
 }
 
 h3 a:hover {
+  font-size: 16px;
   color:#6599FF;
-  font-weight: bold;
 }
 
 #last-blog-spacing {
@@ -106,6 +106,7 @@ section-1 h3, section-2 h3 {
   color:black;
   letter-spacing: 5px;
   text-align: center;
+  font-size: 15px;
 }
 
 /* footer styling */
