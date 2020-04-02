@@ -107,7 +107,21 @@ section-1 h3, section-2 h3 {
   letter-spacing: 5px;
   text-align: center;
   font-size: 15px;
+  font-weight: 400;
 }
+
+section-1 h3 {
+  font-weight: 400;
+}
+
+section-1 #blog-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+
 
 /* footer styling */
  
@@ -131,7 +145,7 @@ section-1 h3, section-2 h3 {
 
 .icons {
   height: 100px;
-  width:500px;
+  width:350px;
   display: flex;
   justify-content: space-around;
 }
@@ -179,4 +193,3 @@ section-1 h3, section-2 h3 {
   background-image: url(./facebook.jpeg);
   background-size: cover;
 }
-
