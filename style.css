@@ -182,7 +182,7 @@ input, #name  {
 }
 
 section-1 p a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color:#6599FF;
 }
 
