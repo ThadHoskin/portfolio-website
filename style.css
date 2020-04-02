@@ -1,6 +1,5 @@
 @import url(https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat);
 
-
 * {
   margin: 0px 0px 0px 0px;
   font-family: 'Montserrat', Arial, sans-serif;
@@ -165,7 +164,7 @@ input, #name  {
 /* about page styling */
 
 .container2 {
-  height:800px;
+  /* height:800px; */
   max-width: 800px;
 }
 
@@ -225,8 +224,8 @@ section-1 h3, section-2 h3 {
 
 /* blog page */
 
-.container1 {
-  height:800px;
+.blog-container1 {
+  /* height:800px; */
   max-width:800px;
 }
 
@@ -389,4 +388,10 @@ img {
 }           
 
 
+@media only screen and (max-width: 500px) {
+  .navbar ul {
+    width:350px;
+
+  }
+}
 
