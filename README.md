@@ -65,4 +65,4 @@ Layout: I used a 0 auto margin on most pf the pages to center the content materi
 
 Form: I used a form on the contact page for the user to be in touch with me regarding an work tehy want to have me do for them . I again made this simple, i placed a smiley face in the submit button to help diverse the page very slightly, made the input gray and the border gray too. 
 
-Hover: I used hover on some of the <a> tag links to link to other pages, it did this by slightly changing the boldness of the text and having the <a> tag the same color as the header titles on the pages. 
+Hover: I used hover on some of the anchor tag links to link to other pages, it did this by slightly changing the boldness of the text and having the anchor tag the same color as the header titles on the pages. 
